@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--my CSS -->
+      <link rel="stylesheet" href="style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Pet Care</title>
+      </head>
+
+      <body id="home" class="scrollspy">
+
+                                        <!-- nav bar-->
+      <div class="navbar-fixed">
+        <nav class="grey" style="background: black !important">
+          <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="brand-logo orange-text text-lighten-2"><img src="img/4.PNG" width="180" height="70"></a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i clasras="material-icons">Menu</i></a>
+            <ul class="right hide-on-med-and-down" style="color: orange;">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portofolio">Portofolio</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="logout.php">Log Out</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+                                        <!--side nav-->
+      <ul class="sidenav" id="mobile-nav" style="color: #d25515;">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+                                        <!--slider-->
+      <div id="home" class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/slider/anjing2.jpg"> <!-- random image -->
+          </li>
+          <li>
+            <img src="img/slider/kucing2.jpg"> <!-- random image -->
+          </li>
+          <li>
+            <img src="img/slider/marmut2.jpg"> <!-- random image -->
+          </li>
+        </ul>
+      </div>
+
+                           <!--About Ganeshcom--->
+      <section id="about"class="about scrollspy">
+        <div class="container">
+          <div class="row">
+            <h3 class="header">About us</h3>
+              <div class="col m5 s12">
+                <center><h2> <img src="img/4.PNG" width="400" height="200"></h2></center>
+              </div>
+              <div class="col m7 s12">
+                <p align="justify">Pet Care adalah suatu sarana yang memiliki fasilitas pelayanan kesehatan,
+                perawatan, dan penitipan bagi hewan peliharaan. Selain itu juga berfungsi sebagai
+                pusat informasi, tempat rekreasi, penyedia kebutuhan hewan peliharaan, dan juga
+                sebagai tempat berinteraksi antara sesama pecinta hewan. Pet Care Skensa adalah suatu organisasi
+                yang menyediakan beberapa layanan yaitu jasa penitipan hewan, perawatan hewan, dan jasa antar
+                jemput hewan. Pet Care Skensa sudah terbukti memiliki petugas yang ahli tentang hewan dan menjaga
+                kualitas tempat unruk hewan - hewan kesayangan anda. Jika anda ingin memesan atau bertanya,bisa 
+                melalui message di bagian contact us. Kenyamanan anda adalah prioritas kami. </p></left> </p>
+              </div>
+          </div>
+              <center><p align="justify">~ We are professional in carrying out all the services available in here. Your pet will be good here, trust the PET CARE SKENSA ~</p></center>
+        </div>
+      </section>
+
+                                  <!--services-->
+
+      <section  id="services" class="services grey lighten-2 scrollspy">
+        <div class="container">
+          <div class="row">
+            <h3 class="header">Our Service</h3><br>
+              <div class="row">
+                <div class="col m4 s12">
+                  <div class="card" style="height: 290px; width: 280px">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <center><img class="activator" src="img/service/1.png" style="width: 200px;height: 200px"></center>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text text-darken-4">Penitipan Hewan<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Penitipan Hewan<i class="material-icons right">close</i></span>
+                  <p>Penitipan hewan adalah salah satu layanan yang tersedia. Anda bisa menitipkan hewan peliharaan anda kepada kami 
+                  dalam periode waktu tertentu. Anda bisa memesan paket yang tersedia.</p>
+                </div>
+              </div>
+              </div>
+              
+              <div class="col m4 s12">
+                  <div class="card" style="height: 290px; width: 280px">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <center><img class="activator" src="img/service/2.png" style="width: 200px;height: 200px"></center>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text text-darken-4">Perawatan Hewan<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Perawatan Hewan<i class="material-icons right">close</i></span>
+                  <p>Perawatan Hewan adalah salah satu layanan yang tersedia. Anda bisa merawat hewan peliharaan anda disini, mulai dari memandikan, mencukur, memotong kuku, ataupun jenis perawatan lainnya. </p>
+                </div>
+              </div>
+              </div>
+              <div class="col m4 s12">
+                <div class="card" style="height: 290px; width: 300px">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <center><img class="activator" src="img/service/3.png" style="width: 200px;height: 200px"></center>
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator white-text text-darken-4">Antar Jemput Hewan<i class="material-icons right">more_vert</i></span>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Antar Jemput Hewan<i class="material-icons right">close</i></span>
+                    <p>Antar Jemput hewan adalah salah satu layanan yang tersedia. Kami akan menjemput atau mengantarkan hewan peliharaan kesayangan anda kerumah apabila anda tidak bisa mengantarkan atau menjemputnya.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+                                   <!--Portifolio-->
+      <section id="portofolio" class="portofolio scrollspy">
+        <div class="container">
+          <h3 class="header">Portofolio</h3><br>
+            <div class="row">
+              <div class="col m4 s12">
+                <img src="img/portofolio/01.jpg" class="responsive-img materialboxed">
+              </div>
+              <div class="col m4 s12">
+                <img src="img/portofolio/03.jpg" class="responsive-img materialboxed">
+              </div>
+              <div class="col m4 s12">
+                <img src="img/portofolio/05.jpg" class="responsive-img materialboxed">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m4 s12">
+                <img src="img/portofolio/02.jpg" class="responsive-img materialboxed">
+              </div>
+              <div class="col m4 s12">
+                <img src="img/portofolio/04.jpg" class="responsive-img materialboxed">
+              </div>
+              <div class="col m4 s12">
+                <img src="img/portofolio/06.jpg" class="responsive-img materialboxed">
+              </div>
+            </div>
+        </div>     
+      </section>
+
+                                    <!-- contact us -->
+      <section id="contact" class="contact grey lighten-3 scrollspy">
+        <div class="container">
+          <h3 class="header">Contact Us</h3><br>
+            <div class="row">
+              <div class="col m5 s12">
+                <div class="card-panel " style="background: black;">
+                  <div class="contact1">
+                  <i class="material-icons medium">email</i>
+                  <h5>Contact</h5>
+                  <p>You can contact the following address</p>
+                </div>
+                </div>
+                <ul class="collection with-header" style="color: #d25515;">
+                  <li class="collection-header center"><h4>Our Office</h4></li>
+                  <li class="collection-item"> Pet Care Skensa </li>
+                  <li class="collection-item"> Jl. Melati No B2 Denpasar </li>
+                  <li class="collection-item"> Bali, Indonesia</li>
+                </ul>
+              </div>
+              <div class="col m7 s12">
+                <form>
+                  <div class="card-panel">
+                    <h5 style="color: #d25515;">Please fill out this form</h5>
+                      <div class="input-field">
+                        <input type="text" name="name" id="name" required class="validate">
+                        <label for="name">Name</label>
+                      </div>
+                      <div class="input-field">
+                        <input type="email" name="email" id="email" class="validate">
+                        <label for="email">Email</label>
+                      </div>
+                      <div class="input-field">
+                        <input type="text" name="phone" id="phone">
+                        <label for="phone">Phone Number</label>
+                      </div>
+                      <div class="input-field">
+                        <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Message</label>
+                      </div>
+                      <br>
+                    <button type="submit" class="btn">Send</button>
+                  </div>
+                </form>
+              </div> 
+            </div>
+        </div>
+      </section>
+
+
+                                    <!-- footer-->
+      <footer class="white-text center height:5px" style="background: black;">
+        <p class="flow-text" style="font-size: 18px; color: white;">Copyright @ PET CARE SKENSA || 2020</p>
+      </footer>
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+      <script >
+          const sideNav = document.querySelectorAll('.sidenav');
+          M.Sidenav.init(sideNav);
+ 
+          const slider = document.querySelectorAll('.slider');
+          M.Slider.init(slider,{
+          indicators : false,
+          height : 525,
+          transition: 600,
+          interval: 3000
+          });
+
+          const parallax= document.querySelectorAll('.parallax');
+          M.Parallax.init(parallax);
+
+          const materialbox = document.querySelectorAll('.materialboxed');
+          M.Materialbox.init(materialbox);
+
+          const scroll = document.querySelectorAll('.scrollspy');
+          M.ScrollSpy.init(scroll,{
+            scrollOffset: 50
+          });
+      </script>
+    </body>
+  </html>
