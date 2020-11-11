@@ -1,0 +1,55 @@
+.slider h3,
+.slider h5,
+.toolsandmedia h3 {
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.slider h3,
+.slider h5 {
+	color: #d25515;
+}
+.parallax-container{
+	height: 30%;
+}
+
+.parallax img{
+	filter: grayscale(2);
+	opacity: 0.5 !important;
+}
+
+.clients img{
+	max-width: 200px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,5));
+}
+
+section, footer{
+	padding: 8px;
+}
+
+.header{
+	text-align: center; 
+	color: #d25515;
+}
+
+.contact1{
+	color: white;
+	text-align: center;
+}
+
+.navbar-fixed ul li a {
+	color: #d25515
+}
+
+.navbar-fixed{
+	background: #c3c3c3
+}
+
+.btn{
+	background: #d25515
+}
+
+.box-shadow{
+	-webkit-box-shadow: 6px 10px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 10px 13px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 10px 13px 0px rgba(0,0,0,0.75);
+}
